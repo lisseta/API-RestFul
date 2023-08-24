@@ -3,7 +3,7 @@ const searchInput = document.getElementById('searchInput');
 const houseFilter = document.getElementById('houseFilter');
 const charactersContainer = document.getElementById('characters');
 
-
+//1er Avance
 //Funcion Asyn Await para traer toda la informacion solicitada
 async function fetchPersonajes() {
   try {

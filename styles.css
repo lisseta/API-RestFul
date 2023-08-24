@@ -11,7 +11,6 @@ body{
    /* background-image: url("fondo.jpeg") ;*/
 }
 
-
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -35,10 +34,10 @@ body{
     margin: -10px;
   }
   
-  /*.col-md-4 {
+  .col-md-4 {
     flex: 0 0 calc(33.3333% - 20px);
     margin: 10px;
-  } */
+  } 
 
 
   
