@@ -1,0 +1,44 @@
+/*Los estilos globales*/
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(22, 21, 20, 0.89);
+   /* background-image: url("fondo.jpeg") ;*/
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /*Permanece en la misma linea*/
+    margin: -10px;
+  }
+  
+  /*.col-md-4 {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin: 10px;
+  } */
+
+
+  
